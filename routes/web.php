@@ -13,10 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/characters', function () {
+    return view('characters');
+});
+
 Route::get('/', function () {
     $array_comics = config('comics');
     $data = [
         'comics' => $array_comics
     ];
     return view('comics', $data);
+});
+
+Route::get('/movies', function () {
+    return view('movies');
 });
