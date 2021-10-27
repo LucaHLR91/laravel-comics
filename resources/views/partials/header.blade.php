@@ -1,6 +1,6 @@
 <header>
-    <div class="black-bar"></div>
-    <div class="container">
+    <div class="blue-bar"></div>
+    <div class="container container-header">
         <div id="logo">
             <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC">
         </div>
@@ -17,6 +17,10 @@
                <li><a href="">news</a></li>
                <li><a href="">shop</a></li>
             </ul>
+        </div>
+        <div class="search_bar">
+            <input type="search" name="" id="" placeholder="Search">
+            <i class="fas fa-search"></i>
         </div>
     </div>
 </header>

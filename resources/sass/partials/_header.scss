@@ -1,9 +1,9 @@
 header {
-    .black-bar {
+    .blue-bar {
         height: 30px;
-        background-color: #000;
+        background-color:$primary;
     }
-    .container {
+    .container-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -18,11 +18,14 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        list-style: none;
         li a {
             padding: 1rem;
             font-weight: 600;
             font-size: 12px;
             transition: 0.3;
+            text-decoration: none;
+            text-transform: uppercase;
             
             &:hover,
             &.active {
@@ -31,5 +34,18 @@ header {
                 
             }
         }
+    }
+
+    .search_bar {
+        display: flex;
+        border-bottom: 1px solid $primary;
+
+        input {
+            border: none;
+            
+            text-align: end;
+            
+        }
+
     }
 }
