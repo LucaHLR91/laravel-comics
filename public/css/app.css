@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .black-bar {
+  height: 30px;
+  background-color: #000;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container #logo {
+  padding: 20px;
+}
+header .container .list {
+  height: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header ul li a {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3;
+}
+header ul li a:hover, header ul li a.active {
+  color: #0282F9;
+  border-bottom: 2px solid #0282F9;
+}

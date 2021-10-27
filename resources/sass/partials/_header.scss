@@ -1,0 +1,35 @@
+header {
+    .black-bar {
+        height: 30px;
+        background-color: #000;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #logo {
+            padding: 20px;
+        }
+        .list {
+            height: 100%;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li a {
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 12px;
+            transition: 0.3;
+            
+            &:hover,
+            &.active {
+                color: $primary;
+                border-bottom: 2px solid $primary;
+                
+            }
+        }
+    }
+}
