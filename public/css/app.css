@@ -73,13 +73,39 @@ header .search_bar input {
   background-size: cover;
 }
 
-.main-button {
+main {
+  background-color: black;
+}
+main .main-comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+}
+main .main-comics .card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 16.6666666667%;
+}
+main .main-comics .card h3 {
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  text-align: start;
+  font-size: 12px;
+  padding: 10px 0;
+}
+main .main-button {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 15px;
 }
-.main-button button {
+main .main-button button {
   padding: 10px 50px;
   background-color: #0282F9;
   color: white;
