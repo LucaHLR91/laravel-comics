@@ -2,4 +2,3 @@
 
 @section('title', 'Homepage')
     
-@endsection
