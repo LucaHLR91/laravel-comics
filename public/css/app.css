@@ -73,6 +73,22 @@ header .search_bar input {
   background-size: cover;
 }
 
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+}
+.main-button button {
+  padding: 10px 50px;
+  background-color: #0282F9;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
 .main-links {
   padding: 20px;
   background-color: #0282F9;

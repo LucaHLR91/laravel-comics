@@ -3,6 +3,12 @@
 @section('title', 'Comics')
 
 @section('comics_main')
+
+
+<div class="main-button">
+    <button>Load More</button>
+</div>
+
 <div class="main-links">
     <div class="container container_main_links">
         <div class="link">
