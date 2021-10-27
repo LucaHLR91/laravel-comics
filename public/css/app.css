@@ -73,6 +73,33 @@ header .search_bar input {
   background-size: cover;
 }
 
+.main-links {
+  padding: 20px;
+  background-color: #0282F9;
+}
+.main-links .container_main_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-links .link {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.main-links .link img {
+  width: 50%;
+}
+.main-links .link span {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
 footer {
   background-image: url("../img/footer-bg.jpg");
 }

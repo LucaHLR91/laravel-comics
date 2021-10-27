@@ -14,8 +14,9 @@
 <body>
     @include('partials.header')
     <div class="jumbotron">
-
+        
     </div>
+    @yield('comics_main')
     @include('partials.footer')
 </body>
 </html>
