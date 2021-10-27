@@ -64,3 +64,11 @@ header .search_bar input {
   border: none;
   text-align: end;
 }
+
+.jumbotron {
+  height: 600px;
+  background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

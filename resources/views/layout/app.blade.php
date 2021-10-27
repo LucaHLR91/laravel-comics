@@ -13,7 +13,9 @@
 </head>
 <body>
     @include('partials.header')
+    <div class="jumbotron">
 
+    </div>
     @include('partials.footer')
 </body>
 </html>
